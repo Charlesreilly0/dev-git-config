@@ -26,7 +26,7 @@ First, clone this repository to your local machine:
 
 The installation script will set up your Git configuration and aliases:
 
-    ./install.sh
+    ./install-git-aliases.sh
     
 
 > **Note**: Make sure you have GitHub CLI installed. If prompted, authenticate with GitHub by running:
