@@ -1,7 +1,7 @@
 Dev Git Config by Charles Reilly
 ================================
 
-👋 Welcome! This repository provides a custom Git configuration setup, including helpful aliases for Git and GitHub CLI commands, all created by Charles Reilly. This setup is _for devs, by a dev_.
+👋 Welcome! This repository provides a custom Git configuration setup, including helpful aliases for Git and GitHub CLI commands.
 
 Repository Contents
 -------------------
@@ -67,7 +67,7 @@ Here’s a list of the Git and GitHub CLI aliases included in this configuration
 Usage
 -----
 
-After running the installation script, you can use any alias as shown above. Enjoy your customized Git setup!
+After running the installation script, you can use any alias as shown above. Enjoy your customisssed Git setup!
 
 If you have any questions or need further customization, feel free to reach out. This configuration was created with simplicity and developer efficiency in mind—\*for devs, by a dev\*!
 
