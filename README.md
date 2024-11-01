@@ -40,109 +40,29 @@ Here’s a list of the Git and GitHub CLI aliases included in this configuration
 
 ### Git Aliases
 
-Alias
-
-Command
-
-Description
-
-`st`
-
-`status`
-
-Shows the current working directory status.
-
-`cm`
-
-`commit -m`
-
-Commits with a message.
-
-`co`
-
-`checkout`
-
-Checks out a branch.
-
-`br`
-
-`branch`
-
-Lists branches.
-
-`lg`
-
-`log --oneline --graph --all --decorate`
-
-Displays a simplified, visual Git log with branches and tags.
-
-`amend`
-
-`commit --amend --no-edit`
-
-Amends the last commit without changing the message.
-
-`rb`
-
-`rebase`
-
-Starts a rebase.
-
-`stashp`
-
-`stash pop`
-
-Applies stashed changes and removes them from stash.
-
-`chp`
-
-`cherry-pick`
-
-Applies a commit from another branch.
-
-`bis`
-
-`bisect`
-
-Starts a bisect to find a bug.
+| Alias     | Command                                | Description                                                    |
+|-----------|----------------------------------------|----------------------------------------------------------------|
+| `st`      | `status`                               | Shows the current working directory status.                    |
+| `cm`      | `commit -m`                            | Commits with a message.                                        |
+| `co`      | `checkout`                             | Checks out a branch.                                           |
+| `br`      | `branch`                               | Lists branches.                                                |
+| `lg`      | `log --oneline --graph --all --decorate` | Displays a simplified, visual Git log with branches and tags. |
+| `amend`   | `commit --amend --no-edit`             | Amends the last commit without changing the message.           |
+| `rb`      | `rebase`                               | Starts a rebase.                                               |
+| `stashp`  | `stash pop`                            | Applies stashed changes and removes them from stash.           |
+| `chp`     | `cherry-pick`                          | Applies a commit from another branch.                          |
+| `bis`     | `bisect`                               | Starts a bisect to find a bug.                                 |
 
 ### GitHub CLI Aliases
 
-Alias
+| Alias        | Command               | Description                                                         |
+|--------------|-----------------------|---------------------------------------------------------------------|
+| `openrepo`   | Opens GitHub repo in the browser | Opens the GitHub repository for the current project in your default browser. |
+| `pr`         | `gh pr create -f`     | Creates a pull request for the current branch.                      |
+| `prlist`     | `gh pr list`          | Lists all open pull requests in the repository.                     |
+| `issues`     | `gh issue list`       | Lists all open issues in the repository.                            |
+| `checkoutpr` | `gh pr checkout`      | Checks out a pull request by number.                                |
 
-Command
-
-Description
-
-`openrepo`
-
-Opens GitHub repo in the browser
-
-Opens the GitHub repository for the current project in your default browser.
-
-`pr`
-
-`gh pr create -f`
-
-Creates a pull request for the current branch.
-
-`prlist`
-
-`gh pr list`
-
-Lists all open pull requests in the repository.
-
-`issues`
-
-`gh issue list`
-
-Lists all open issues in the repository.
-
-`checkoutpr`
-
-`gh pr checkout`
-
-Checks out a pull request by number.
 
 Usage
 -----
